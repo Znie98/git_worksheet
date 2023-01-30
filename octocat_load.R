@@ -1,4 +1,4 @@
-# Code to load in Octocat (github mascot) art
+# Code to load in octocat (github mascot) art
 
 octocat = readLines("./octocat.txt")
 
