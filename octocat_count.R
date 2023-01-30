@@ -4,3 +4,4 @@ octocat = readLines("./octocat.txt")
 
 length(octocat)
 
+#Conflict! 
