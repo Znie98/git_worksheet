@@ -21,3 +21,8 @@ g::::::ggg:::::::g
 gg:::::::::::::g                                 
 ggg::::::ggg                                   
 gggggg                                      
+
+
+we have to commit frequently
+git is very powerful
+we need to write a commit message to successfully commit a file
