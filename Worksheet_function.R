@@ -211,6 +211,15 @@ pet_split(pet_vector = survey$pets)
 #and output a number showing how many total NAs there were in there row. 
 #The is.na() function will come in handy here. An example input and output should look like:
 
-
-is.na(survey[1, ])
+total_na<-function(row){
+  #get the table of is.na of the row
+  na_table = table(is.na(row))
+  
+  #get the total number of TRUE
+  num_true = na_table[["TRUE"]]
+  
+  #return num_true
+  return(num_true)
+}
+total_na(survey[1,])
 
