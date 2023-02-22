@@ -7,7 +7,7 @@ c(TRUE, 8) # will show 1, 8
 c("TRUE", FALSE) # will show "TRUE", "FALSE"
 
 # example 3
-c(F, F, F, T) #will show "F" "F" "T" "T" (actually show FALSE FALSE TRUE TRUE)
+c(F, F, F, T) #actually show FALSE FALSE TRUE TRUE
 
 # example 4
 c(TRUE, TRUE, TRUE, 1) # will show 1 1 1 1 
