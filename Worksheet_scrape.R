@@ -19,4 +19,10 @@ sds_df = data.frame(
 #As website might have access frequency limit, remember using Sys.sleep() before read_html() command
 
 #Worksheet ----
-sds_home<-
+sds_home <- read_html("https://www.smith.edu/academics/statistics")
+
+sds_faculty = data.frame('name' = html_text2(html_elements(sds_page, '.fac-inset h3')))
+
+sds_faculty$title = html_text2(html_elements(sds_page, '.fac-inset p'))
+
+sds_faculty$link = html_attr(html_elements(sds_page, '.linkopacity'), name = 'href')
