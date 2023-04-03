@@ -10,6 +10,8 @@ class(test_vec) = "Apple"
 # make a print method "apple" class
 print.Apple = function(x){
   
-  
+  cat("B) You've got this! \n")
+  cat(x)
   
 }
+print(test_vec)
