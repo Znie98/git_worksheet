@@ -15,3 +15,14 @@ print.Apple = function(x){
   
 }
 print(test_vec)
+
+
+# worksheet ----
+field = plant("carrot", "apple", "strawberry")
+
+# create harvest generic function
+harvest.apple =
+  function(x){
+    
+  }
+
